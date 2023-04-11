@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86fbc578-5f77-4c87-8aa3-28f86cd875bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/MockitoTestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/service/UserServiceImpl.java" afterDir="false" />
+    <list default="true" id="86fbc578-5f77-4c87-8aa3-28f86cd875bd" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/src/test/java/vasiliy/gorbunov/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vasiliy/gorbunov/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vasiliy/gorbunov/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +24,16 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -60,6 +61,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "E:/Course/Block3/Socks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +71,106 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="vasiliy.gorbunov.service" />
+      <recent name="vasiliy.gorbunov.dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserServiceTest.shouldReturnFalseByCheckUserExistInDao">
+    <configuration name="UserDaoTest.shouldReturnFalseByFindUserFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vasiliy.gorbunov.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vasiliy.gorbunov.dao" />
+      <option name="MAIN_CLASS_NAME" value="vasiliy.gorbunov.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="shouldReturnFalseByFindUserFromList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.shouldReturnTrueByFindUserFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vasiliy.gorbunov.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vasiliy.gorbunov.dao" />
+      <option name="MAIN_CLASS_NAME" value="vasiliy.gorbunov.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrueByFindUserFromList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.shouldReturnUserFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vasiliy.gorbunov.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vasiliy.gorbunov.dao" />
+      <option name="MAIN_CLASS_NAME" value="vasiliy.gorbunov.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="shouldReturnUserFromList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.checkUserExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vasiliy.gorbunov.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vasiliy.gorbunov.service" />
+      <option name="MAIN_CLASS_NAME" value="vasiliy.gorbunov.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="checkUserExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.shouldReturnFalseByCheckUserExistInDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vasiliy.gorbunov.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vasiliy.gorbunov.service" />
+      <option name="MAIN_CLASS_NAME" value="vasiliy.gorbunov.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="shouldReturnFalseByCheckUserExistInDao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceTest.shouldReturnFalseByCheckUserExistInDao" />
+        <item itemvalue="JUnit.UserServiceTest.checkUserExist" />
+        <item itemvalue="JUnit.UserDaoTest.shouldReturnFalseByFindUserFromList" />
+        <item itemvalue="JUnit.UserDaoTest.shouldReturnTrueByFindUserFromList" />
+        <item itemvalue="JUnit.UserDaoTest.shouldReturnUserFromList" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,8 +179,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681117690284</updated>
-      <workItem from="1681117691459" duration="1003000" />
+      <workItem from="1681117691459" duration="1253000" />
+      <workItem from="1681206689367" duration="6645000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1681118936218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681118936218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +197,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
 </project>

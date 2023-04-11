@@ -2,9 +2,9 @@ package vasiliy.gorbunov.dao;
 
 import vasiliy.gorbunov.model.User;
 
-import java.awt.*;
+import java.util.ArrayList;
 
 public interface UserDao {
     User getUserByName(String name);
-    List findAllUsers();
+    ArrayList<User> findAllUsers();
 }
